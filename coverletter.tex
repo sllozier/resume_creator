@@ -1,0 +1,142 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+\definecolor{awesome}{HTML}{741AAC}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./public/sarah_small_round.png}
+\name{Sarah L.}{Lozier}
+\position{Missionary{\enskip\cdotp\enskip}Software Engineer{\enskip\cdotp\enskip}Veteran}
+%\address{}
+
+\mobile{(207) 604-2917}
+\email{sarah.lozier@gmail.com}
+%\homepage{www.sllozier.com}
+%\github{sllozier}
+%\linkedin{sarah-l-lozier}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+%\medium{@sllozier}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Justin Sweeney, Lead Pastor}{Jenn Leech, Director of Operations}
+  {New Life Church\\551 Alfred Rd, Biddeford, ME 04005}
+  
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+%\lettertitle{Resume for Outreach Director Position}
+% How the letter is opened
+\letteropening{Dear Justin and Jenn,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+%\makecvfooter
+  %{\today}
+  %{Sarah L. Lozier~~~·~~~Cover Letter}
+  %{}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+\letterparagraph{Thank you for considering me for the Outreach Director role at New Life Church. I'm grateful for the chance to help grow a mission that's so close to my heart, especially with a team that already feels like family.}
+\lettersection{About Me}
+With a background that bridges technical expertise and outreach, I’m passionate about equipping people to uncover and use their unique gifts. My experience includes missionary work through Youth With A Mission (YWAM), where I led outreach initiatives, organized events, and collaborated with local leaders to support underserved populations. These experiences taught me the value of patience, resilience, and adaptability, which I bring to each new opportunity. I am dedicated to New Life Church’s mission to make a meaningful impact in our community and beyond.
+\lettersection{Why New Life?}
+Our core value of "Church Like Family" resonates deeply with the vision God has placed on my heart for outreach. The church’s commitment to fostering a family-like community—where each person’s potential is valued and nurtured—aligns with my passion for empowering individuals in ministry. I see us being a “Church Like Family” and a “Family On Mission.” Through initiatives like "The Reach," I envision creating spaces where church members and community members can connect, grow, and thrive together, extending hope in tangible ways. This mission of extending hope and compassion within our community reflects my own desire to create lasting, purposeful connections that impact lives.
+\lettersection{Why Me?}
+This vision for outreach goes beyond filling roles; it’s about empowering individuals to embrace their identity and serve with purpose. I believe in building a foundation that creates lasting impact, as outlined in my recently proposed multi-year plan. This includes activating leaders, building community partnerships, and creating sustainable training programs to equip teams for local and global outreach. My professional and volunteer experience has shaped my focus on mobilizing support systems that foster resilience, community, and faith. I am committed to building an Outreach Department in submission to New Life Church’s mission, equipping people to make a difference both locally and globally.
+
+
+
+
+
+
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
